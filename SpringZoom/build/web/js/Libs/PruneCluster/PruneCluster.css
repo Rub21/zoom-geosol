@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-may-2014, 9:29:33
+    Author     : ERIK-PC
+*/
+
+     
+        
+.prunecluster {
+	font-size: 12px;
+	border-radius: 20px;
+	transition: all 0.3s linear;
+}
+.leaflet-marker-icon, .leaflet-marker-shadow {
+	transition: all 0.3s linear;
+}
+.prunecluster div {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-radius: 15px;
+}
+.prunecluster div span {
+	line-height: 30px;
+}
+
+.prunecluster-small {
+	background-color: rgba(181, 226, 140, 0.6);
+}
+
+.prunecluster-small div {
+	background-color: rgba(110, 204, 57, 0.6);
+}
+
+.prunecluster-medium {
+	background-color: rgba(241, 211, 87, 0.6);
+}
+
+.prunecluster-medium div {
+	background-color: rgba(240, 194, 12, 0.6);
+}
+
+.prunecluster-large {
+	background-color: rgba(253, 156, 115, 0.6);
+}
+
+.prunecluster-large div {
+	background-color: rgba(241, 128, 23, 0.6);
+}
+div#size, a#delete {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	background: white;
+	color: black;
+	padding: 0.4em;
+	border-radius: 4px;
+}

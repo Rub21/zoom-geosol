@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cronos sistema="Sistema Cronos">
+    <servidor>
+        <driver>org.postgresql.Driver</driver>
+        <url>jdbc:postgresql://localhost:5432/dbzoom</url>
+        <ip_servidor>localhost</ip_servidor>
+        <db>dbzoom</db>
+        <nombre_servidor>localhost</nombre_servidor>
+        <puerto>5432</puerto>
+        <usuario>postgres</usuario>
+        <password>1234</password>
+        <nick>Sistema de Analisis Geografico Zoom</nick>
+    </servidor>
+    <cliente>
+        <ip_cliente></ip_cliente>
+        <nombre_cliente></nombre_cliente>
+    </cliente>
+    <otro_servidor>
+        <otro_ip_servidor></otro_ip_servidor>
+        <otro_puerto></otro_puerto>
+        <otro_db></otro_db>
+    </otro_servidor>
+    <otros>
+        <es_servidor></es_servidor>
+        <interrupcion></interrupcion>
+        <hora_cierre_planilla></hora_cierre_planilla>
+        <es_autorizado_backup>SI</es_autorizado_backup>
+    </otros>
+    <path>
+        <path_reporte>F:\\cronuscha\\cronuscha\\src\\sistemas\\cronos\\report\\</path_reporte>
+        <path_pg_dump>F:/cronuscha/cronuscha/src/sistemas/cronos/source/</path_pg_dump>
+        <path_backup>F:\cronuscha\cronuscha\src\sistemas\cronos\image\</path_backup>
+    </path>
+</cronos>

@@ -1,0 +1,212 @@
+
+/******************************************
+Close
+******************************************/
+#close {
+    display: none;
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    top: 10px;
+    margin-top: -10px;
+    right: 5%;
+    margin-left: 255px;
+    border: none;
+    background: #555;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    /* text-shadow: 0 1px 0 #000;*/
+    z-index: 9999991;
+}
+
+#close:hover { background: #444; }
+
+
+#backdrop {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #333;
+    opacity: 0.8;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    z-index: 999999;
+}
+
+/*-----------------------------------
+block  for superposition
+-------------------------------------*/
+.sig_popover {
+    overflow: auto;
+    overflow-x: hidden;
+    -moz-border-radius:    3px;
+    -webkit-border-radius: 3px;
+    border-radius:         3px;
+    -moz-box-shadow:    0px 1px 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
+    box-shadow:         0px 1px 10px rgba(0,0,0,0.5);
+    background: #fff;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0; 
+    z-index: 999999;
+    width: 90%;
+    height: 100%;
+    /*font: 12px/20px Arial, Helvetica, sans-serif;*/
+    /* text-align: center;*/
+}
+
+
+
+.content-popover {
+    position:absolute;
+    top:2px;
+    left:auto;
+    right:auto;
+    z-index: 999;
+    width: 100%;
+    height: 95%;
+    padding:5px;
+
+}
+
+#popover_hotel .brand/*, #popover_recurso .brand*/{
+    margin-left: 20px;
+}
+
+#detaill_recurso .brand{
+    margin-left: 20px;
+}
+
+/*************************************
+MAPAS
+**************************************/
+
+#map_servicios{
+    position:relative;
+    /*z-index: 45;*/
+    width:100%;
+    height:550px;
+}
+
+
+.container-servicios{
+    position: relative;
+}
+
+
+.container-servicios ul.dropdown-menu{
+    display: block;    
+    margin-left: 5px;
+}/*980102055*/
+
+.select_servicios{
+    position: absolute;
+    top:80px;
+    right:170px;
+    z-index: 999;
+    display:block;
+}
+/***********
+END
+************/
+
+/*************************************
+MODAL EN HOTEL, RESTAURANT Y TRANSPORTE Y COMPLEMENTARIOS
+**************************************/
+.modal-header .nombre{
+    margin-left: 40px;
+}
+
+.imagen_logo{
+    position: absolute;
+    top:20px;
+}
+
+.imagen_logo_recurso{
+    margin-left:  15px;
+}
+
+/*--------
+imagenes carrucel
+----------*/
+
+.imagenes_hotel{
+    margin-left: 70px;
+}
+.imagenes_restaurant{
+    margin-left: 200px;
+}
+.imagenes_transporte{
+    margin-left: 200px;
+}
+
+.imagenes_complementario{
+    margin-left: 200px;
+}
+
+
+#modal_hotel{
+    z-index: 99999992;
+}
+/***********
+END
+************/
+
+/*************
+Modal
+*************/
+
+.modal{
+    z-index:9999991;
+}
+.modal-backdrop{
+    z-index:999999;
+}
+/**************
+movilidades a destinos turisticos
+***************/
+.movilidad a{
+    color: #3A87AD;
+}
+
+/*******************
+id producto
+*********************/
+.idproducto{
+    display: none;
+}
+
+/*********************
+over for clic in imagen
+**********************/
+.overimagen_recurso{
+    bottom: 15px;
+    margin-left: 30px;
+    position: relative;
+
+}
+.full_imagen_recurso{
+    text-align: center;
+}
+#modal_imagen .modal-body{
+    max-height: 100%;
+}
+
+/*
+a .sitio_web{
+    color: #0044cc;
+}*/

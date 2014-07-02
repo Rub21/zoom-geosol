@@ -1,0 +1,139 @@
+<!--<div class="sidebar">
+           <div class="hide_sidebar"><a href="#">&nbsp</a></div>-->
+<h4>BUSQUEDA CLIENTE</h4> 
+<hr>
+
+<div style="margin-bottom: 5px;">
+    <button id="btnBusquedaCliente" type="button" class="btn btn-warning btn-xs"><span class="glyphicon glyphicon-search"></span> Buscar clientes</button>
+</div>
+<div id="blqBusquedaCliente">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Filtros aplicados</div>
+        <div id="pnlFilter" class="panel-body">
+        </div>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">Modo de Visualizaci&oacute;n</div>
+        <div class="panel-body">
+            <div class="checkbox">
+                <label>
+                    <input id="chkCluster" type="checkbox" value="" checked="checked">
+                    Marker Cluster
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input id="chkHeat" type="checkbox" value="" >
+                    Heat
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input id="chkSquare0005" type="checkbox" value="" >
+                    Square0005
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input id="chkSquare00025" type="checkbox" value="" >
+                    Square00025
+                </label>
+            </div>
+              <div class="checkbox">
+                <label>
+                    <input id="chkHexagono0005" type="checkbox" value="" >
+                    chkHexagono0005
+                </label>
+            </div>
+              <div class="checkbox">
+                <label>
+                    <input id="chkHexagono00025" type="checkbox" value="" >
+                    chkHexagono00025
+                </label>
+            </div>
+        </div>
+    </div>
+    <!--<div class="panel panel-primary">
+       <div class="panel-heading">Capas</div>
+       <div class="panel-body">
+          <div class="checkbox">
+               <label>
+                   <input id="chkLayerRutas" type="checkbox" value="" >
+                   Rutas
+               </label>
+           </div>
+           <div class="checkbox">
+               <label>
+                   <input id="chkLayerMesas" type="checkbox" value="" >
+                   Mesas
+               </label>
+           </div>
+           <div class="checkbox">
+               <label>
+                   <input id="chkLayerDias" type="checkbox" value="" >
+                   Dias
+               </label>
+           </div>
+           
+       </div>
+   </div>-->
+
+    <h4>Resultado</h4> 
+    <hr>
+    <table id="gridCliente"></table>
+    <div id="paperCliente"></div>
+    <span class="label label-primary">Presione Dobleclick para mostrar los detalles.</span>
+
+
+</div>
+<div id ="blqDetalleCliente">
+    <form id="contact-form">
+        <fieldset>
+            <div class="form-group">
+                <button  type="button" class="btnMostrarbqlBusqueda btn btn-primary btn-xs ">Atras</button>
+            </div>
+            <div class="form-group">
+                <span class="help-block">Nombres</span>
+                <input id="txtNombresClienteDetalle" type="text" class="form-control input-sm" id="password">
+            </div>
+            <div class="form-group">
+                <span class="help-block">Direcci&oacute;n</span>
+                <input id="txtDireccionClienteDetalle" type="text" class="form-control input-sm" id="password">
+            </div>
+
+            <div class="form-group">
+                <span class="help-block">Distrito</span>
+                <input id="txtDistritoClienteDetalle" type="text" class="form-control input-sm" id="password">
+
+            </div>
+
+            <div class="form-group">
+                <span class="help-block">Categoria</span>
+                <input id="txtCategoriaClienteDetalle" type="text" class="form-control input-sm" id="password">
+
+            </div>
+
+            <div class="form-group">
+                <span class="help-block">Giro Negocio</span>
+                <input id="txtGiroClienteDetalle" type="text" class="form-control input-sm" id="password">
+
+            </div>
+            <div class="form-group">
+                <span class="help-block">Latitud</span>
+                <input id="txtLatitudClienteDetalle" type="text" class="form-control input-sm" id="password">
+
+            </div>
+            <div class="form-group">
+                <span class="help-block">Longitud</span>
+                <input id="txtLongitudClienteDetalle" type="text" class="form-control input-sm" id="password">
+
+            </div>
+            <div class="form-group">
+                <span class="help-block"></span>
+                <button id="btnAtrasDetalleCliente" type="button" class="btn btn-primary btn-xs btnMostrarbqlBusqueda">Atras</button>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+<!--</div>-->
